@@ -65,8 +65,8 @@ body{
 }
 
 .mainFlex{
-    width: 1040px;
-    margin-left: 200px;
+    width: 1140px;
+    margin-left: 150px;
     
 }
 span{
@@ -78,10 +78,10 @@ span{
     justify-content: flex-start;
     background-color: black;
     width: 100%;
-    height: 2000px;
+    height: 1700px;
 }
 .head_div{
-    margin-left: 200px;
+    margin-left: 150px;
     margin-bottom: 25px;
 }
 
@@ -132,10 +132,16 @@ span{
 }
 
 .buttonBox{
+    box-sizing: border-box;
+    padding-top: 12px;
+    text-align: center;
+
+    border-radius: 40px 40px;
     margin-right: 200px;
     background-color: turquoise;
     width: 145.7px;
     height: 38px;
+    color: black;
 }
 .footer{
 
@@ -145,20 +151,39 @@ span{
 }
 .footerBar{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     box-sizing: border-box;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-right: 200px;
     width: 100%;
     height: 80%;
 }
+.footerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 .footerBar img{
-    width: 100;
-    height: 40;
+    width: 100px;
+    height: 40px;
 }
 .realFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
     width: 100%;
     height: 20%;
     
     background-color: slategrey;
+}
+.circle{
+    
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 50%;
 }
