@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+}
+.paddingBox{
+    margin-left: 200px;
+    width: 1040px;
+    height: 600px;
+}
+.content{
+    margin: 10px;
+    width: 170px;
+    height: 200px;
+}
+.content2_ex{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content2_explain{
+    flex: 3 1 0;
+}
+.content2_img{
+    margin-left: 100px;
+    flex: 1 1 0;
+}
+.content2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.content2_ex p{
+    color: white;
+    font-size: 30px;
+    margin: 15px;
+}
+.content2{
+    box-sizing: border-box;
+    background-color: #131313;
+    margin-top: 20px;
+    width: 100%;
+    height: 260px;
+    padding: 50px;
+    border-radius: 40px 40px;
+}
+.bigContent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.main p{
+    color: white;
+}
+
+.contentBox{
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    border-radius: 40px 40px;
+}
+.content p{
+    text-align: center;
+    color: white;
+}
+
+.mainFlex{
+    width: 1040px;
+    margin-left: 200px;
+    
+}
+span{
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    width: 100%;
+    height: 2000px;
+}
+.head_div{
+    margin-left: 200px;
+    margin-bottom: 25px;
+}
+
+.head_div p{
+    color: white;
+    font-size: 30px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/background.png);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    
+}
+
+.head p{
+    margin: 0;
+}
+
+.nav img{
+    margin-left: 200px;
+    width: 100px;
+    height: 40px;
+}
+
+.menuAndButton{
+    display: flex;
+    align-items: center;
+}
+
+.menuAndButton a{
+    margin-right: 25px;
+    color: white;
+}
+
+.buttonBox{
+    margin-right: 200px;
+    background-color: turquoise;
+    width: 145.7px;
+    height: 38px;
+}
+.footer{
+
+    background-color: #131313;
+    width: 100%;
+    height: 200px;
+}
+.footerBar{
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
+    height: 80%;
+}
+
+.footerBar img{
+    width: 100;
+    height: 40;
+}
+.realFooter{
+    width: 100%;
+    height: 20%;
+    
+    background-color: slategrey;
+}
